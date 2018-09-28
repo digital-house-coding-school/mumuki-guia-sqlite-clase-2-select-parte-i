@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT nombre, modelo, descripcion, precio, puntuacion FROM productos;
