@@ -5,7 +5,7 @@ Para comenzar, nuestros productos tendrán categorías con lo cual, conozcamos l
 <div
   class='mu-erd'
   data-entities='{
-    "marca": {
+    "marcas": {
       "id": {
         "type": "Integer",
         "pk": true
