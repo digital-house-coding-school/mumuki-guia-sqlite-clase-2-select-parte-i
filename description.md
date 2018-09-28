@@ -1,0 +1,1 @@
+Clase de SQL en el curso de desarrollo web de Digital House. Esta clase explora consultas SELECT
