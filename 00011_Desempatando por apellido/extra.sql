@@ -42,7 +42,7 @@ CREATE TABLE clientes (
 );
 
 
-INSERT INTO clientes (id, nombre, apellido, email, telefono, celular, fecha_de_nacimiento, id_producto_preferido) VALUES (1,'Sacha','Lifszyc','sacha.lifszyc@gmail.com','46319613','1153980907','1990-08-12 00:00:00',37),(2,'Darío','Susnisky','dario@dh.com','49968901','1130315490','1990-10-03 00:00:00',22),(3,'Javier','Herrera','javi@dh.com','49074344',NULL,'1990-09-01 00:00:00',NULL),(4,'Carla','Zapata','carlazapata@gmail.com',NULL,'1156701024','1986-03-10 00:00:00',29),(5,'Laura','Cortés','laucortes14@hotmail.com',NULL,'1157843301','1978-05-06 00:00:00',NULL),(6,'Martina','Zapata','martucrespo84@hotmail.com','46338998',NULL,'1984-03-07 00:00:00',1),(7,'Martina','Crespo','martucrespo84@hotmail.com','33458912',NULL,'1984-02-12 00:00:00',5);
+INSERT INTO clientes (id, nombre, apellido, email, telefono, celular, fecha_de_nacimiento, id_producto_preferido) VALUES (1,'Sacha','Lifszyc','sacha.lifszyc@gmail.com','46319613','1153980907','1990-08-12 00:00:00',37),(2,'Darío','Susnisky','dario@dh.com','49968901','1130315490','1990-10-03 00:00:00',22),(3,'Javier','Herrera','javi@dh.com','49074344',NULL,'1990-09-01 00:00:00',NULL),(4,'Carla','Zapata','carlazapata@gmail.com',NULL,'1156701024','1986-03-10 00:00:00',29),(5,'Laura','Cortés','laucortes14@hotmail.com',NULL,'1157843301','1978-05-06 00:00:00',NULL),(6,'Martina','Zapata','martuzapata84@hotmail.com','46338998',NULL,'1984-03-07 00:00:00',1),(7,'Martina','Crespo','martucrespo84@hotmail.com','33458912',NULL,'1984-02-12 00:00:00',5);
 
 CREATE TABLE ventas (
   id INTEGER NOT NULL PRIMARY KEY,
