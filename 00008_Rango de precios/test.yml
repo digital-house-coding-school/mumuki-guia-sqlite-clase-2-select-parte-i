@@ -1,2 +1,2 @@
 - type: query
-  expected: SELECT * FROM productos where precio < 5000 and precio > 1000;
+  expected: SELECT * FROM productos where precio < 10000 and precio > 1000;
