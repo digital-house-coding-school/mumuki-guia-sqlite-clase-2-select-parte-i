@@ -40,3 +40,5 @@ Te recordamos la estructura de la tabla por si no la tenes en mente:
     }
   }'>
 </div>
+
+A su vez, para preguntar si algo no es nulo en SQL se escribe **IS NOT NULL**
