@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT nombre, apellido, telefono, fecha_de_nacimiento from clientes where telefono is not null order by fecha_de_nacimiento DESC;
