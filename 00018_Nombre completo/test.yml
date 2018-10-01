@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT nombre || " " || apellido as "nombre completo" from clientes;
