@@ -1,2 +1,2 @@
 - type: query
-  expected: SELECT * from productos order by puntuacion limit 5;
+  expected: SELECT * from productos order by puntuacion desc limit 5;
