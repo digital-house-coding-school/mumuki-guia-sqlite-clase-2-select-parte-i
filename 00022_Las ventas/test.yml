@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT clientes.nombre, apellido, productos.nombre from productos, ventas, clientes where productos.id = ventas.id_producto AND clientes.id = ventas.id_cliente;
