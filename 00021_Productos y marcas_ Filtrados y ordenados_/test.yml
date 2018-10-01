@@ -1,0 +1,2 @@
+- type: query
+  expected: SELECT productos.nombre, marcas.nombre from productos, marcas where productos.id_marca = marcas.id and puntuacion > 3 order by precio desc;
