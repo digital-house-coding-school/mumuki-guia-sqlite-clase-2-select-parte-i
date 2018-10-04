@@ -4,7 +4,7 @@ Por eso te pedimos lo siguiente:
 
 > Realiza una consulta que traiga todos los productos que:
 
-> 1. Tengan precio entre 1000 y 5000
+> 1. Tengan precio entre 1000 y 10000
 
 > 2. O que tenga puntuación mayor a 4
 
