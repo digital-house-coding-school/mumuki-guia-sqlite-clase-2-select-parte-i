@@ -4,7 +4,10 @@ Esta tabla va a ser la que una los productos con los clientes, siendo una relaci
 
 De este modo, nuestro diagrama se ve así:
 
-
+<div
+  class='mu-erd'
+  >
+</div>
 
 Para este último ejercicio te vamos a pedir una consulta que explore las 3 tablas!!!
 
