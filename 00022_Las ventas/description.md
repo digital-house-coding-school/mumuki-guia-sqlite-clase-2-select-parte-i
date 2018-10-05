@@ -6,7 +6,75 @@ De este modo, nuestro diagrama se ve así:
 
 <div
   class='mu-erd'
-  >
+  data-entities='{
+    "clientes": {
+      "id": {
+        "type": "Integer",
+        "pk": true
+      },
+      "nombre": {
+        "type": "Text"
+      },
+      "apellido" : {
+        "type": "Text"
+      }
+    },
+    "ventas": {
+      "id": {
+        "type": "Integer",
+        "pk": true
+      },
+      "id_cliente" : {
+        "type": "Integer",
+        "fk": {
+          "to": { "entity": "clientes", "column": "id" },
+          "type": "many_to_one"
+        }
+      },
+      "id_producto" : {
+        "type": "Integer",
+        "fk": {
+          "to": { "entity": "productos", "column": "id" },
+          "type": "many_to_one"
+        }
+      }
+    },
+    "productos": {
+      "id": {
+        "type": "Integer",
+        "pk": true
+      },
+      "nombre": {
+        "type": "Text"
+      },
+      "modelo": {
+        "type": "Text"
+      },
+      "descripcion": {
+        "type": "Text"
+      },
+      "precio": {
+        "type": "Real"
+      },
+      "puntuacion": {
+        "type": "Real"
+      },
+      "id_categoria" : {
+        "type": "Integer",
+        "fk": {
+          "to": { "entity": "producto", "column": "id" },
+          "type": "many_to_one"
+        }
+      },
+      "id_marca" : {
+        "type": "Integer",
+        "fk": {
+          "to": { "entity": "producto", "column": "id" },
+          "type": "many_to_one"
+        }
+      }
+    }
+  }'>
 </div>
 
 Para este último ejercicio te vamos a pedir una consulta que explore las 3 tablas!!!
