@@ -60,18 +60,12 @@ De este modo, nuestro diagrama se ve así:
         "type": "Real"
       },
       "id_categoria" : {
-        "type": "Integer",
-        "fk": {
-          "to": { "entity": "producto", "column": "id" },
-          "type": "many_to_one"
-        }
+        "type": "Integer"
+        
       },
       "id_marca" : {
-        "type": "Integer",
-        "fk": {
-          "to": { "entity": "producto", "column": "id" },
-          "type": "many_to_one"
-        }
+        "type": "Integer"
+        
       }
     }
   }'>
