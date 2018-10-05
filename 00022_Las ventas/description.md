@@ -61,11 +61,9 @@ De este modo, nuestro diagrama se ve así:
       },
       "id_categoria" : {
         "type": "Integer"
-        
       },
       "id_marca" : {
         "type": "Integer"
-        
       }
     }
   }'>
