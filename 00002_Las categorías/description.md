@@ -14,11 +14,7 @@ Conozcamos esta nueva tabla:
         "type": "Text"
       },
       "id_categoria_padre" : {
-        "type": "Integer",
-        "fk": {
-          "to": { "entity": "categorias", "column": "id" },
-          "type": "many_to_one"
-        }
+        "type": "Integer"
       }
     }
   }'>
