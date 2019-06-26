@@ -1,2 +1,2 @@
 - type: query
-  expected: SELECT * FROM clientes ORDER BY nome;
+  expected: SELECT * from clientes order by nombre;
